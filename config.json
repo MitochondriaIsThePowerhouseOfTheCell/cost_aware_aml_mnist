@@ -1,0 +1,34 @@
+{
+    "General": {
+        "epsilonStepSize": 2,
+        "maxEpsilon": 8,
+        "displaySubset": 20,
+        "showOriginal": false,
+        "startIdx": 0
+    },
+    "CSV": {
+        "fileName": "response.csv"
+    },
+    "Model": {
+        "modelDir": "PATH_TO_FOLDER\\cost_aware_aml_mnist\\model\\madry_mnist.py",
+        "weightDir": "PATH_TO_FOLDER\\cost_aware_aml_mnist\\model\\madrynet_mnist_l2_3.pth",
+        "outputDir": "PATH_TO_FOLDER\\cost_aware_aml_mnist\\Data\\madrynet_mnist_l2",
+        "numSubsets": 35,
+        "subsetSize": 28
+    },
+    "Images": {
+        "enabled": true
+    },
+    "Histogram": {
+        "enabled": true
+    },
+    "BoxPlot": {
+        "enabled": false
+    },
+    "TSNE": {
+        "enabled": true
+    },
+    "TrajectoryRegression": {
+        "enabled": true
+    }
+}
